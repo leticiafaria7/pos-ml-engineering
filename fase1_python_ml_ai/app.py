@@ -3,6 +3,7 @@ from flask_httpauth import HTTPBasicAuth
 from flasgger import Swagger
 import requests
 from bs4 import BeautifulSoup
+from flask_caching import Cache
 
 # cria a instância (aplicativo)
 app = Flask(__name__)
@@ -15,6 +16,11 @@ app.config['SWAGGER'] = {
 
 # instanciar para habilitar documentação
 swagger = Swagger(app)
+
+# acesso em http://127.0.0.1:5000/apidocs/
+
+# cache
+cache = Cache(app, config = {'CACHE_TYPE': 'simple'})
 
 # autenticação
 auth = HTTPBasicAuth()
