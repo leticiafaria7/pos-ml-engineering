@@ -1,2 +1,6 @@
 # ambientes virtuais
 venv/
+venv_receitas/
+
+# extensões
+*.pyc
