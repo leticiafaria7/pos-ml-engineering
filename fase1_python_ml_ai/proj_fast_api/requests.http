@@ -1,0 +1,13 @@
+# tem que instalar a extensão REST Client no vscode
+# o arquivo pode usar qualquer nome desde que termine em .http ou .rest
+
+### Criar item
+POST http://127.0.0.1:8000/items
+Content-Type: application/json
+
+{
+  "name": "Caneca",
+  "description": "Caneca de cerâmica branca",
+  "price": 15.99,
+  "quantity": 50
+}
