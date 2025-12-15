@@ -2,8 +2,12 @@
 venv/
 venv_receitas/
 vevn/
+.venv/
 
 # extensões
 *.pyc
 __pycache__/
 .ipynb_checkpoints
+
+# arquivos especificos
+uv.lock
