@@ -4,7 +4,7 @@ from pathlib import Path
 
 def read_configs():
     with open(Path(Path(__file__).parent, 'config/config.yaml'), 'r') as file:
-        config: Any = safe_load(file.read())
+        config = safe_load(file.read())
 
     return config
 
