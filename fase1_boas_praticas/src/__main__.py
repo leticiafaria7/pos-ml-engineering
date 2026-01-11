@@ -1,5 +1,5 @@
 import pandas as pd
-from yaml import safe_load, loader # no terminal: uv add PyYaml
+from yaml import safe_load, loader # no terminal, para instalar a biblioteca: uv add PyYaml
 from pathlib import Path
 
 def read_configs():
