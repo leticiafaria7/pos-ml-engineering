@@ -13,3 +13,7 @@ __pycache__/
 
 # arquivos especificos
 uv.lock
+
+# pastas com dados
+etl_ibovespa/data/*.csv
+legacy/
