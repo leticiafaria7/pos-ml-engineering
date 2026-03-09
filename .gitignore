@@ -17,3 +17,4 @@ uv.lock
 # pastas com dados
 etl_ibovespa/data/*.csv
 legacy/
+scraped/
